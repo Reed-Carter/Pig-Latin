@@ -23,11 +23,11 @@ This is a translator that will translate any text into Pig Latin. A complete rep
 
 ## Tests
 
-Describe: vowelCounter();
+Describe: convertToPigLatin();
 
-test: "it recognizes a single vowel."
-code: vowelCounter("a");
-expected output 1
+test: "it removes the first letter of a word"
+code: convertToPigLatin("cat");
+expected output: "at"
 
 
 
